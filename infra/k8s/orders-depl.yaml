@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: orders
-          image: us.gcr.io/elevated-watch-291020/orders
+          image: abland/orders
           env:
             - name: NATS_CLIENT_ID
               valueFrom:
