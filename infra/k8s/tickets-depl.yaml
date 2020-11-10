@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: tickets
-          image: us.gcr.io/elevated-watch-291020/tickets
+          image: abland/tickets
           env:
             - name: NATS_CLIENT_ID
               valueFrom:

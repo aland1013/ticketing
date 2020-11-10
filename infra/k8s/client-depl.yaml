@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: client
-          image: us.gcr.io/elevated-watch-291020/client
+          image: abland/client
 ---
 apiVersion: v1
 kind: Service

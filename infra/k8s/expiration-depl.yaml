@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: expiration
-          image: us.gcr.io/elevated-watch-291020/expiration
+          image: abland/expiration
           env:
             - name: NATS_CLIENT_ID
               valueFrom:
