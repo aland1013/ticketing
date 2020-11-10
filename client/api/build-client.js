@@ -4,7 +4,7 @@ export default ({ req }) => {
   if (typeof window === 'undefined') {
     // we are on the server
     return axios.create({
-      baseURL: 'http://abl-ticketing-app.xyz',
+      baseURL: 'http://www.abl-ticketing-app.xyz',
       headers: req.headers
     });
   } else {
